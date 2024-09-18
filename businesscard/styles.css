@@ -1,0 +1,54 @@
+/* General body styling */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;     
+  display: flex;            
+  justify-content: center;                
+  }
+
+.card {
+  display: flex;                
+  align-items: center; 
+  text-align: center;
+  justify-content: space-around;                         
+  background: maroon;           
+  border-radius: 10px;          
+  max-width: 800px;             
+  width: 400;                  
+  color: aquamarine;  
+  border-bottom: 8px solid blue;
+ padding: 20px;
+  margin: 0,auto;    
+}
+
+/* Profile picture styling */
+.my_photo {
+  width: 120px;                 
+  height: 120px;                
+  border-radius: 50%;           
+  object-fit: cover;                    
+}
+
+/* Content (text) section */
+.border-green {
+  border: 1px solid green;     
+  padding: 10px;                         
+          
+}
+
+.border-green h3 {
+  margin: 0;
+  font-size: 24px;              /* Larger font size for the name */
+  color: aquamarine;            /* Text color for the name */
+}
+
+.border-green p {
+  margin: 5px 0;
+  font-size: 18px;              /* Regular size for the job title */
+  color: aquamarine;            /* Text color for job description */
+}
+
+.border-green h4 {
+  margin: 5px 0;
+  font-size: 16px;              /* Slightly smaller font for the location */
+  color: aquamarine;            /* Text color for location */
+}
